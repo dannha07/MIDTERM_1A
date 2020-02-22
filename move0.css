@@ -1,0 +1,368 @@
+.head{
+    position: absolute;
+    background: linear-gradient(45deg, pink, black);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+	top: 150px;
+	left: 350px;
+}
+
+.body{
+	    position: absolute;
+    background: green;
+    width: 110px;
+    height: 280px;
+    top: 291px;
+    left: 369px;
+    border-radius: 50px;
+	
+}
+	
+	/** arm **/
+.move0 .left.arm{
+    width: 111px;
+    height: 91px;
+    border-top: 0px solid transparent;
+    border-bottom: 50px solid orange;
+    border-left: 45px solid #00BCD4;
+    border-right: 0px solid transparent;
+    border-radius: 10px;
+    transform: rotate(-35deg);
+    top: 313px;
+    left: 445px;
+    position: absolute;
+    z-index: -1;
+}
+
+.move0 .right.arm{
+    width: 111px;
+    height: 91px;
+    border-top: 0px solid transparent;
+    border-bottom: 50px solid orange;
+    border-left: 45px solid #00BCD4;
+    border-right: 0px solid transparent;
+    border-radius: 10px;
+    transform: rotate(66deg);
+    top: 357px;
+    left: 292px;
+    position: absolute;
+}
+
+	/** hita **/
+.move0 .left.hita{
+    position: absolute;
+    background: red;
+    z-index: -1;
+    width: 62px;
+    height: 174px;
+    border-radius: 100px;
+    top: 516px;
+    left: 424px;
+    transform: rotate(-20deg);
+}
+
+.move0 .right.hita{
+    position: absolute;
+    background: #e68a8a;
+    width: 62px;
+    height: 174px;
+    border-radius: 100px;
+    top: 519px;
+    left: 370px;
+    transform: rotate(7deg);
+}
+
+
+	/** binti **/
+.move0 .left.binti{
+    position: absolute;
+    background: #653232;
+    z-index: -1;
+    width: 62px;
+    height: 205px;
+    border-radius: 100px;
+    top: 631px;
+    left: 460px;
+    transform: rotate(-12deg);
+}
+
+.move0 .right.binti{
+    position: absolute;
+    background: #e68a8a;
+    width: 62px;
+    height: 205px;
+    border-radius: 100px;
+    top: 642px;
+    left: 352px;
+    transform: rotate(8deg);
+}
+
+
+	/** paa **/
+.move0 .left.paa{
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    border-bottom: 50px solid red;
+    border-left: 0px solid transparent;
+    border-right: 90px solid transparent;
+    border-radius: 20px;
+    top: 753px;
+    left: 473px;
+    transform: rotate(-2deg);
+}
+
+.move0 .right.paa{
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    border-bottom: 50px solid red;
+    border-left: 0px solid transparent;
+    border-right: 90px solid transparent;
+    border-radius: 20px;
+    top: 770px;
+    left: 340px;
+    transform: rotate(9deg);
+}
+
+
+
+	
+	
+	
+	
+	/** move1 **/
+	
+	
+	
+	
+	/** arm **/
+.move1 .left.arm{
+    width: 111px;
+    height: 91px;
+    border-top: 0px solid transparent;
+    border-bottom: 50px solid orange;
+    border-left: 45px solid #00BCD4;
+    border-right: 0px solid transparent;
+    border-radius: 10px;
+    transform: rotate(48deg);
+    top: 353px;
+    left: 331px;
+    position: absolute;
+    z-index: -1;
+}
+
+.move1 .right.arm{
+    width: 111px;
+    height: 91px;
+    border-top: 0px solid transparent;
+    border-bottom: 50px solid orange;
+    border-left: 45px solid #00BCD4;
+    border-right: 0px solid transparent;
+    border-radius: 10px;
+    transform: rotate(-1deg);
+    top: 337px;
+    left: 412px;
+    position: absolute;
+}
+
+	/** hita **/
+.move1 .left.hita{
+    position: absolute;
+    background: red;
+    z-index: -1;
+    width: 62px;
+    height: 174px;
+    border-radius: 100px;
+    top: 523px;
+    left: 391px;
+    transform: rotate(1deg);
+}
+
+.move1 .right.hita{
+    position: absolute;
+    background: #e68a8a;
+    width: 62px;
+    height: 174px;
+    border-radius: 100px;
+    top: 515px;
+    left: 445px;
+    transform: rotate(-34deg);
+}
+
+
+	/** binti **/
+.move1 .left.binti{
+    position: absolute;
+    background: #653232;
+    z-index: -1;
+    width: 62px;
+    height: 205px;
+    border-radius: 100px;
+    top: 643px;
+    left: 379px;
+    transform: rotate(9deg);
+}
+
+.move1 .right.binti{
+    position: absolute;
+    background: #e68a8a;
+    width: 62px;
+    height: 205px;
+    border-radius: 100px;
+    top: 627px;
+    left: 482px;
+    transform: rotate(-1deg);
+}
+
+
+	/** paa **/
+.move1 .left.paa{
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    border-bottom: 50px solid red;
+    border-left: 0px solid transparent;
+    border-right: 90px solid transparent;
+    border-radius: 20px;
+    top: 780px;
+    left: 366px;
+    transform: rotate(4deg);
+}
+
+.move1 .right.paa{
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    border-bottom: 50px solid red;
+    border-left: 0px solid transparent;
+    border-right: 90px solid transparent;
+    border-radius: 20px;
+    top: 767px;
+    left: 483px;
+    transform: rotate(1deg);
+}
+
+
+
+
+
+
+
+	/** move2 **/
+	
+	
+	
+	/** arm **/
+.move2 .left.arm{
+    width: 111px;
+    height: 91px;
+    border-top: 0px solid transparent;
+    border-bottom: 50px solid orange;
+    border-left: 45px solid #00BCD4;
+    border-right: 0px solid transparent;
+    border-radius: 10px;
+    transform: rotate(79deg);
+    top: 350px;
+    left: 313px;
+    position: absolute;
+    z-index: -1;
+}
+
+.move2 .right.arm{
+    width: 111px;
+    height: 91px;
+    border-top: 0px solid transparent;
+    border-bottom: 50px solid orange;
+    border-left: 45px solid #00BCD4;
+    border-right: 0px solid transparent;
+    border-radius: 10px;
+    transform: rotate(-37deg);
+    top: 308px;
+    left: 432px;
+    position: absolute;
+}
+
+	/** hita **/
+.move2 .left.hita{
+	    position: absolute;
+    background: red;
+	z-index: -1;
+    width: 62px;
+    height: 174px;
+    border-radius: 100px;
+    top: 520px;
+    left: 378px;
+    transform: rotate(16deg);
+}
+
+.move2 .right.hita{
+	    position: absolute;
+    background: #e68a8a;
+    width: 62px;
+    height: 174px;
+    border-radius: 100px;
+    top: 500px;
+    left: 438px;
+    transform: rotate(-53deg);
+}
+
+
+	/** binti **/
+.move2 .left.binti{
+	    position: absolute;
+    background: #653232;
+    z-index: -1;
+    width: 62px;
+    height: 205px;
+    border-radius: 100px;
+    top: 621px;
+    left: 303px;
+    transform: rotate(50deg);
+}
+
+.move2 .right.binti{
+	    position: absolute;
+    background: #e68a8a;
+    width: 62px;
+    height: 205px;
+    border-radius: 100px;
+    top: 590px;
+    left: 514px;
+    transform: rotate(-23deg);
+}
+
+
+	/** paa **/
+.move2 .left.paa{
+	    position: absolute;
+    width: 60px;
+    height: 40px;
+    border-bottom: 50px solid red;
+    border-left: 0px solid transparent;
+    border-right: 90px solid transparent;
+    border-radius: 20px;
+    top: 753px;
+    left: 238px;
+    transform: rotate(45deg);
+}
+
+.move2 .right.paa{
+	    position: absolute;
+    width: 60px;
+    height: 40px;
+    border-bottom: 50px solid red;
+    border-left: 0px solid transparent;
+    border-right: 90px solid transparent;
+    border-radius: 20px;
+    top: 696px;
+    left: 537px;
+    transform: rotate(-18deg);
+}
+
+
+
+
+
+
